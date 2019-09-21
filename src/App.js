@@ -2,11 +2,18 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import SingleRecipe from "./pages/SingleRecipe";
+import Default from "./pages/Default";
 
 function App() {
   return (
     <div className="container">
-      <h1> from resepie react app</h1>
+      <Home />
+      <Recipes />
+      <SingleRecipe />
+      <Default />
     </div>
   );
 }
