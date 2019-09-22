@@ -8,9 +8,9 @@ export default class Home extends Component {
       <Header title="amazing recipes">
         <Link
           to="recipes"
-          className="btn btn-secondary text-uppercase btn-lg mt-3 text-orange"
+          className="btn btn-secondary text-uppercase btn-lg mt-3"
         >
-          search resepices
+          search rescipes
         </Link>
       </Header>
     );

@@ -5,7 +5,7 @@ body {
   font-family: "Courgette", cursive;
 }
 .text-orange {
-  color: #f15025 !important;
+  color: #f15025c2 !important;
 }
 .letter-spacing {
   letter-spacing: 0.5rem;
@@ -13,6 +13,20 @@ body {
 
 .header-hero {
   min-height: calc(100vh - 56px);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(241, 80, 37, 0.3), rgba(241, 80, 37, 0.3)),
     url("./images/homeBcg.jpeg") center/cover no-repeat;
+}
+.default-hero {
+  min-height: calc(100vh - 56px);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/defaultBcg.jpeg") center/cover no-repeat;
+}
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+textarea,
+button {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
 }
